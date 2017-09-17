@@ -4,6 +4,8 @@ In the last year I've written several tools that helped me in my Android App pro
 
 [![Release](https://jitpack.io/v/cmaier/7tools.svg)](https://jitpack.io/cmaier/7tools)
 
+### :bangbang: There might be breaking changes on new releases.
+
 ### How to add it to my Android project?
 
 #### First - Add the repo to your projects repositories:
