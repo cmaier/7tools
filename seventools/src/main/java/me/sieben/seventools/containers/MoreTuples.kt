@@ -25,17 +25,17 @@ data class Quin<out A, out B, out C, out D, out E>(val first: A,
 
 fun <T> Quin<T, T, T, T, T>.toList(): List<T> = listOf(first, second, third, fourth, fifth)
 
-data class Hexa<out A, out B, out C, out D, out E, out F>(val first: A,
-                                                          val second: B,
-                                                          val third: C,
-                                                          val fourth: D,
-                                                          val fifth: E,
-                                                          val sixth: F) : Serializable {
+data class Hex<out A, out B, out C, out D, out E, out F>(val first: A,
+                                                         val second: B,
+                                                         val third: C,
+                                                         val fourth: D,
+                                                         val fifth: E,
+                                                         val sixth: F) : Serializable {
 
     override fun toString() = "($first, $second, $third, $fourth, $fifth, $sixth)"
 }
 
-fun <T> Hexa<T, T, T, T, T, T>.toList(): List<T> = listOf(first, second, third, fourth, fifth, sixth)
+fun <T> Hex<T, T, T, T, T, T>.toList(): List<T> = listOf(first, second, third, fourth, fifth, sixth)
 
 data class Sep<out A, out B, out C, out D, out E, out F, out G>(val first: A,
                                                                 val second: B,

@@ -2,7 +2,7 @@
 
 package me.sieben.seventools.functions
 
-import me.sieben.seventools.containers.Hexa
+import me.sieben.seventools.containers.Hex
 import me.sieben.seventools.containers.Quad
 import me.sieben.seventools.containers.Quin
 import me.sieben.seventools.containers.Sep
@@ -22,7 +22,7 @@ fun <A, B, C, D, E, R> Quin<A?, B?, C?, D?, E?>.let(block: (A?, B?, C?, D?, E?) 
         block(first, second, third, fourth, fifth)
 
 
-fun <A, B, C, D, E, F, R> Hexa<A?, B?, C?, D?, E?, F?>.let(block: (A?, B?, C?, D?, E?, F?) -> R): R? =
+fun <A, B, C, D, E, F, R> Hex<A?, B?, C?, D?, E?, F?>.let(block: (A?, B?, C?, D?, E?, F?) -> R): R? =
         block(first, second, third, fourth, fifth, sixth)
 
 
