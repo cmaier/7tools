@@ -1,0 +1,27 @@
+language: android
+jdk: oraclejdk8
+sudo: required
+
+android:
+    components:
+        - tools
+        - platform-tools
+        - android-26
+        - build-tools-26.0.1
+    
+        - exra-android-m2repository
+        - extra-google-m2repository
+
+cache:
+    directories:
+        - $HOME/.gradle/caches/
+        - $HOME/.gradle/wrapper/
+        - $HOME/.android/build-cache
+
+script:
+    - ./gradlew build
+
+branches:
+    only:
+    - master
+    - /^\d+\.\d+(\.\d+)?(-\S*)?$/
