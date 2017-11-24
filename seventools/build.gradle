@@ -5,12 +5,12 @@ apply plugin: 'com.github.dcendents.android-maven'
 group = 'com.github.cmaier'
 
 android {
-    compileSdkVersion 26
-    buildToolsVersion "26.0.1"
+    compileSdkVersion 27
+    buildToolsVersion "26.0.2"
 
     defaultConfig {
         minSdkVersion 19
-        targetSdkVersion 26
+        targetSdkVersion 27
         versionCode 1
         versionName "1.0"
 
@@ -34,5 +34,5 @@ dependencies {
     androidTestImplementation('com.android.support.test.espresso:espresso-core:3.0.1', {
         exclude group: 'com.android.support', module: 'support-annotations'
     })
-    testImplementation("io.kotlintest:kotlintest:2.0.5")
+    testImplementation("io.kotlintest:kotlintest:2.0.7")
 }
