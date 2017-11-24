@@ -17,7 +17,7 @@ fun <A, B, R> Pair<A?, B?>.letNotNull(block: (Pair<A, B>) -> R): R? = when (null
     else -> block(Pair(first as A, second as B))
 }
 
-fun <A, B, C, R> Triple<A?, B?, C?>.letNotNull(block: (A, B, C) -> R): R? = when (null) {
+inline fun <A, B, C, R> Triple<A?, B?, C?>.letNotNull(block: (A, B, C) -> R): R? = when (null) {
     first, second, third -> null
     else -> block(first as A, second as B, third as C)
 }
