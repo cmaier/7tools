@@ -2,8 +2,8 @@ apply plugin: 'com.github.ben-manes.versions'
 
 buildscript {
     ext {
-        kotlin_version = '1.2.21'
-        support_library_version = '27.0.2'
+        kotlin_version = '1.2.30'
+        support_library_version = '27.1.0'
     }
     repositories {
         google()
