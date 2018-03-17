@@ -26,7 +26,7 @@ allprojects {
 
 ```Gradle
 dependencies {
-    compile 'com.github.cmaier:7tools:1.2.1'
+    compile 'com.github.cmaier:7tools:1.2.2'
 }
 ```
 
