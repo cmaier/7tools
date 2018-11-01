@@ -25,3 +25,6 @@ branches:
     only:
     - master
     - /^\d+\.\d+(\.\d+)?(-\S*)?$/
+
+before_install:
+    - yes | sdkmanager "platform;android-28"
