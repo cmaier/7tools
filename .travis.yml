@@ -27,4 +27,4 @@ branches:
     - /^\d+\.\d+(\.\d+)?(-\S*)?$/
 
 before_install:
-    - yes | sdkmanager "platform;android-28"
+    - yes | sdkmanager "platforms;android-28"
