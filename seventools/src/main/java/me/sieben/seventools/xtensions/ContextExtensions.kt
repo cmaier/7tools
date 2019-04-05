@@ -4,10 +4,10 @@ package me.sieben.seventools.xtensions
 
 import android.content.Context
 import android.graphics.drawable.Drawable
-import android.support.annotation.*
-import android.support.v4.content.ContextCompat
 import android.view.LayoutInflater
 import android.widget.Toast
+import androidx.annotation.*
+import androidx.core.content.ContextCompat
 
 @ColorInt
 fun Context.color(@ColorRes colorRes: Int) = ContextCompat.getColor(this, colorRes)

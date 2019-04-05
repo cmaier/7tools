@@ -4,8 +4,8 @@ package me.sieben.seventools.xtensions
 
 import android.app.Activity
 import android.content.Context
-import android.support.annotation.StringRes
 import android.widget.Toast
+import androidx.annotation.StringRes
 
 fun Activity.toast(message: CharSequence?, duration: Int = Toast.LENGTH_LONG) {
     (this as Context).toast(message, duration)
