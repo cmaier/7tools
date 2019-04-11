@@ -2,6 +2,13 @@
 
 ## [Unreleased]
 
+### Added
+* VersionUtils: Support functions for OreoMR1(27) and Pie(28)
+
+### Changed
+### Removoed
+### Fixed
+
 ## [1.4.0] - 2019-04-05
 ### Added
 * AndroidX support

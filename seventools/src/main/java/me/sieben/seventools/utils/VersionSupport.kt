@@ -5,6 +5,14 @@ package me.sieben.seventools.utils
 
 import android.os.Build
 
+fun isAtLeast28Pie() = Build.VERSION_CODES.P.isSupported()
+
+inline fun isAtLeast28Pie(noinline unsupported: (() -> Unit)? = null, supported: () -> Unit) = if (isAtLeast28Pie()) supported() else unsupported?.invoke()
+
+fun isAtLeast27OreoMR1() = Build.VERSION_CODES.O_MR1.isSupported()
+
+inline fun isAtLeast27OreoMR1(noinline unsupported: (() -> Unit)? = null, supported: () -> Unit) = if (isAtLeast27OreoMR1()) supported() else unsupported?.invoke()
+
 fun isAtLeast26Oreo() = Build.VERSION_CODES.O.isSupported()
 
 inline fun isAtLeast26Oreo(noinline unsupported: (() -> Unit)? = null, supported: () -> Unit) = if (isAtLeast26Oreo()) supported() else unsupported?.invoke()
