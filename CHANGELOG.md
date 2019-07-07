@@ -6,6 +6,10 @@
 ### Removed
 ### Fixed
 
+## [1.4.2] - 2019-07-07
+## Changed
+* VersionUtils: Lint now recognizes support functions
+
 ## [1.4.1] - 2019-04-11
 ### Added
 * VersionUtils: Support functions for OreoMR1(27) and Pie(28)
