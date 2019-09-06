@@ -3,6 +3,8 @@
 ## [Unreleased]
 ### Added
 ### Changed
+* Gradle update from 5.3.1 to 5.6.2
+
 ### Removed
 ### Fixed
 
