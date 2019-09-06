@@ -1,7 +1,6 @@
 [![GitHub license](https://img.shields.io/github/license/dcendents/android-maven-gradle-plugin.svg)](http://www.apache.org/licenses/LICENSE-2.0.html) |
 [![Release](https://jitpack.io/v/cmaier/7tools.svg)](https://jitpack.io/#cmaier/7tools) |
-`Release 1.4.2` [![Build Status](https://travis-ci.com/cmaier/7tools.svg?branch=1.4.2)](https://travis-ci.com/cmaier/7tools) |
-`Master` [![Build Status](https://travis-ci.com/cmaier/7tools.svg?branch=master)](https://travis-ci.org/cmaier/7tools)
+[![GitHub Actions Status](https://github.com/cmaier/7tools/workflows/7tools%20CI/badge.svg)](https://github.com/cmaier/7tools/actions)
 
 # 7tools - Kotlin tools for Android projects
 
@@ -26,7 +25,7 @@ allprojects {
 
 ```Gradle
 dependencies {
-    compile 'com.github.cmaier:7tools:1.4.2'
+    compile 'com.github.cmaier:7tools:1.5.0'
 }
 ```
 

@@ -3,6 +3,14 @@
 ## [Unreleased]
 ### Added
 ### Changed
+### Removed
+### Fixed
+
+## [1.5.0] - 2019-09-06
+### Added
+* Support for Github Actions added
+
+### Changed
 * Gradle update from 5.3.1 to 5.6.2
 * `compileSdkVersion` set to `29`
 * `targetSdkVersion` set to `29`
@@ -10,7 +18,7 @@
 * `androidx.fragment` set to `1.1.0` 
 
 ### Removed
-### Fixed
+* Support for Travis CI removed
 
 ## [1.4.2] - 2019-07-07
 ## Changed
