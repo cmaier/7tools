@@ -4,6 +4,10 @@
 ### Added
 ### Changed
 * Gradle update from 5.3.1 to 5.6.2
+* `compileSdkVersion` set to `29`
+* `targetSdkVersion` set to `29`
+* `androidx.appcompat` set to `1.1.0` 
+* `androidx.fragment` set to `1.1.0` 
 
 ### Removed
 ### Fixed
