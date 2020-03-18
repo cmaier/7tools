@@ -1,7 +1,7 @@
 import com.github.benmanes.gradle.versions.updates.DependencyUpdatesTask
 
 plugins {
-    id("com.github.ben-manes.versions") version "0.27.0"
+    id("com.github.ben-manes.versions") version "0.28.0"
 }
 
 buildscript {
@@ -10,10 +10,10 @@ buildscript {
         jcenter()
     }
     dependencies {
-        classpath("com.android.tools.build:gradle:3.5.3")
-        classpath(kotlin("gradle-plugin", version = "1.3.61"))
+        classpath("com.android.tools.build:gradle:3.6.1")
+        classpath(kotlin("gradle-plugin", version = "1.3.70"))
         classpath("com.github.dcendents:android-maven-gradle-plugin:2.1")
-        classpath("com.github.ben-manes:gradle-versions-plugin:0.27.0")
+        classpath("com.github.ben-manes:gradle-versions-plugin:0.28.0")
 
         // NOTE: Do not place your application dependencies here; they belong
         // in the individual module build.gradle files

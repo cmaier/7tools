@@ -30,9 +30,9 @@ android {
 
 dependencies {
     implementation(fileTree(mapOf("dir" to "libs", "include" to listOf("*.jar"))))
-    implementation("org.jetbrains.kotlin:kotlin-stdlib-jdk7:1.3.61")
+    implementation("org.jetbrains.kotlin:kotlin-stdlib-jdk7:1.3.70")
     implementation("androidx.appcompat:appcompat:1.1.0")
-    implementation("androidx.fragment:fragment:1.2.1")
+    implementation("androidx.fragment:fragment:1.2.3")
     testImplementation("junit:junit:4.13")
     androidTestImplementation("com.android.support.test.espresso:espresso-core:3.0.2") {
         exclude(group = "com.android.support", module = "support-annotations")
