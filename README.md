@@ -6,8 +6,6 @@
 
 In the last year I've written several tools that helped me in my Android App projects to work with resources and the Android framework. Now I'm putting all these tools in one project so it will help me and maybe others enjoying developing Kotlin a little more.
 
-## :bangbang: There might be breaking changes on new releases.
-
 ### How to add it to my Android project?
 
 #### First - Add the repo to your projects repositories:
@@ -25,7 +23,7 @@ allprojects {
 
 ```Gradle
 dependencies {
-    compile 'com.github.cmaier:7tools:1.6.1'
+    implementation 'com.github.cmaier:7tools:1.7.0'
 }
 ```
 
