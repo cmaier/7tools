@@ -8,6 +8,9 @@
 
 
 ## [1.8.0] - 2020-08-30
+### Fixed
+* ReplaceWith didn't work correctly w/ io() extension function
+
 ### Changed
 * Gradle Wrapper updated from 6.2.2 to 6.6.1
 * Android Gradle Plugin updated from 3.6.1 to 4.0.1

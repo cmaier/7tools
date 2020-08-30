@@ -5,7 +5,7 @@ package me.sieben.seventools.utils
 import android.util.Log
 
 @Deprecated("For development only!", ReplaceWith("this"))
-fun <T> T.io(msg: String = "", tag: String = "logIo", throwable: Throwable? = this as? Throwable): T = apply {
+fun <T> T.io(msg: String = "", tag: String = "logIo", throwable: Throwable? = null): T = apply {
     Log.d(tag, "$msg <$this>", throwable)
 }
 
