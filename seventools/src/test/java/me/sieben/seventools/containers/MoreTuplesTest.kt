@@ -1,7 +1,7 @@
 package me.sieben.seventools.containers
 
-import io.kotlintest.matchers.shouldBe
-import io.kotlintest.specs.WordSpec
+import io.kotest.core.spec.style.WordSpec
+import io.kotest.matchers.shouldBe
 
 class QuadTest : WordSpec() {
 

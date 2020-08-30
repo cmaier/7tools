@@ -1,7 +1,7 @@
 package me.sieben.seventools.functions
 
-import io.kotlintest.matchers.shouldBe
-import io.kotlintest.specs.WordSpec
+import io.kotest.core.spec.style.WordSpec
+import io.kotest.matchers.shouldBe
 
 class BooleanActionTest : WordSpec() {
 
@@ -97,7 +97,7 @@ class BooleanActionTest : WordSpec() {
             }
         }
 
-        "Boolean.onTrue" should {
+        "Boolean.onFalse" should {
 
             "run the block if the Boolean is false" {
                 var checkpoint = false
