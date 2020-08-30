@@ -1,7 +1,7 @@
 package me.sieben.seventools.extensions
 
-import io.kotlintest.matchers.shouldBe
-import io.kotlintest.specs.WordSpec
+import io.kotest.core.spec.style.WordSpec
+import io.kotest.matchers.shouldBe
 import me.sieben.seventools.xtensions.emptyToNull
 import me.sieben.seventools.xtensions.nullToEmpty
 

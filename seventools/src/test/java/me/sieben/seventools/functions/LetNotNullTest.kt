@@ -2,8 +2,8 @@
 
 package me.sieben.seventools.functions
 
-import io.kotlintest.matchers.shouldBe
-import io.kotlintest.specs.WordSpec
+import io.kotest.core.spec.style.WordSpec
+import io.kotest.matchers.shouldBe
 import me.sieben.seventools.containers.Hex
 import me.sieben.seventools.containers.Quad
 import me.sieben.seventools.containers.Quin

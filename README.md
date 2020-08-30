@@ -23,7 +23,7 @@ allprojects {
 
 ```Gradle
 dependencies {
-    implementation 'com.github.cmaier:7tools:1.7.0'
+    implementation 'com.github.cmaier:7tools:1.8.0'
 }
 ```
 

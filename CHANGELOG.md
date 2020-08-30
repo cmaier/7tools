@@ -6,6 +6,19 @@
 ### Removed
 ### Fixed
 
+
+## [1.8.0] - 2020-08-30
+### Fixed
+* ReplaceWith didn't work correctly w/ io() extension function
+
+### Changed
+* Gradle Wrapper updated from 6.2.2 to 6.6.1
+* Android Gradle Plugin updated from 3.6.1 to 4.0.1
+* Kotlin updated from 1.3.70 to 1.4.0
+* AndroidX Fragment from 1.2.0 to 1.2.5 _(and Fragment-KTX)_
+* AndroidX AppCompat from 1.1.0 to 1.2.0
+* Migrated to new KoTest _(ex KotlinTest)_ 4.2.2
+
 ## [1.7.0] - 2020-03-18
 ### Added
 * Improve logging methods for Throwable receivers #27
