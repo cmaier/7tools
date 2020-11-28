@@ -10,11 +10,11 @@ plugins {
 group = "com.github.cmaier"
 
 android {
-    compileSdkVersion(29)
+    compileSdkVersion(30)
 
     defaultConfig {
         minSdkVersion(19)
-        targetSdkVersion(29)
+        targetSdkVersion(30)
         versionCode = 1
         versionName = "1.0"
 
@@ -36,7 +36,7 @@ android {
 
 dependencies {
     implementation(fileTree(mapOf("dir" to "libs", "include" to listOf("*.jar"))))
-    implementation("org.jetbrains.kotlin:kotlin-stdlib-jdk7:1.4.0")
+    implementation("org.jetbrains.kotlin:kotlin-stdlib-jdk7:1.4.20")
     implementation("androidx.appcompat:appcompat:1.2.0")
     implementation("androidx.fragment:fragment-ktx:1.2.5")
 
@@ -44,12 +44,12 @@ dependencies {
         exclude(group = "com.android.support", module = "support-annotations")
     }
     androidTestImplementation("androidx.test:runner:1.3.0")
-    androidTestImplementation("org.junit.jupiter:junit-jupiter-api:5.6.2")
+    androidTestImplementation("org.junit.jupiter:junit-jupiter-api:5.7.0")
     androidTestImplementation("de.mannodermaus.junit5:android-test-core:1.2.0")
     androidTestRuntimeOnly("de.mannodermaus.junit5:android-test-runner:1.2.0")
-    testImplementation("io.kotest:kotest-runner-junit5:4.2.2")
-    testImplementation("io.kotest:kotest-assertions-core:4.2.2")
-    testImplementation("io.kotest:kotest-property:4.2.2")
+    testImplementation("io.kotest:kotest-runner-junit5:4.3.1")
+    testImplementation("io.kotest:kotest-assertions-core:4.3.1")
+    testImplementation("io.kotest:kotest-property:4.3.1")
 }
 
 tasks.withType<Test> {
